@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <meta charset="utf-8" />
 <html>
+    <script>
+        url = new URL(window.location.href);
+
+        if (url.searchParams.has('palecourt')) {
+            if (url.searchParams.get('palecourt') == true) {
+                window.open("https://themulhima.github.io/Scarab/commands/download/?mods=Core.FsmUtil/FrogCore/HKMirror/Hallownest-Vocalized/Hallownest-Vocalized-AudioLoader/Osmi/Pale%20Court/SFCore/Satchel/Vasi", "_self")
+            }
+        } else {
+            window.open("https://themulhima.github.io/Scarab/commands/download/?mods=Core.FsmUtil/FrogCore/HKMirror/Hallownest-Vocalized/Hallownest-Vocalized-AudioLoader/Osmi/SFCore/Satchel", "_self")
+        }
+    </script>
   <head>
     <title>download</title>
-    <meta
-      http-equiv="refresh"
-      content="0; URL=https://themulhima.github.io/Scarab/commands/download/?mods=Core.FsmUtil/FrogCore/HKMirror/Hallownest-Vocalized/Hallownest-Vocalized-AudioLoader/Osmi/SFCore/Satchel"
-    />
   </head>
 </html>
