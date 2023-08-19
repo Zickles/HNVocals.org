@@ -3,10 +3,9 @@
 <html>
     <script>
         const urlParams = new URLSearchParams(window.location.search)
-
         const palecourt = urlParams.get('palecourt')
 
-        if (palecourt == true) {
+        if (palecourt == "true") {
                 window.open("https://themulhima.github.io/Scarab/commands/download/?mods=Core.FsmUtil/FrogCore/HKMirror/Hallownest-Vocalized/Hallownest-Vocalized-AudioLoader/Osmi/Pale%20Court/SFCore/Satchel/Vasi", "_self")
         } else {
             window.open("https://themulhima.github.io/Scarab/commands/download/?mods=Core.FsmUtil/FrogCore/HKMirror/Hallownest-Vocalized/Hallownest-Vocalized-AudioLoader/Osmi/SFCore/Satchel", "_self")
